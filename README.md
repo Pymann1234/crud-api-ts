@@ -57,7 +57,7 @@ pnpm install
 
 3. Create `.env` file:
 ```env
-MONGO_URI=mongodb://localhost:27017/crud-api-ts
+MONGO_URI=mongodb://localhost:27017/test-db
 PORT=5000
 ```
 
