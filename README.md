@@ -1,4 +1,4 @@
-```markdown
+```
 # 🚀 TypeScript CRUD API with Express & MongoDB
 
 A simple and clean REST API built with TypeScript, Express, and MongoDB (using Mongoose). Perfect for beginners learning backend development with TypeScript.
@@ -18,10 +18,11 @@ A simple and clean REST API built with TypeScript, Express, and MongoDB (using M
 - **Language**: TypeScript
 - **Database**: MongoDB (with Mongoose ODM)
 - **Development**: ts-node-dev (hot reloading)
-- **Testing**: Postman/Thunder Client
+- **Testing**: Postman
 
 ## 📂 Project Structure
 
+```
 src/
 ├── config/         # Database connection setup
 │   └── db.ts
@@ -32,6 +33,7 @@ src/
 ├── routes/         # API endpoints
 │   └── userRoutes.ts
 └── index.ts        # Application entry point
+```
 
 ## 🚀 Getting Started
 
@@ -46,19 +48,23 @@ src/
 ```bash
 git clone https://github.com/Pymann1234/crud-api-ts.git
 cd crud-api-ts
+```
 
 2. Install dependencies:
 ```bash
 pnpm install
+```
 
 3. Create `.env` file:
 ```env
 MONGO_URI=mongodb://localhost:27017/crud-api-ts
 PORT=5000
+```
 
 4. Start development server:
 ```bash
 pnpm dev
+```
 
 ## 📝 API Endpoints
 
@@ -79,6 +85,7 @@ pnpm dev
   "email": "jane@example.com",
   "age": 28
 }
+```
 
 ## 🏗️ Build & Run
 
@@ -91,6 +98,7 @@ pnpm start
 
 # Development mode (with hot reload)
 pnpm dev
+```
 
 ## 📌 Important Notes
 
@@ -112,7 +120,7 @@ pnpm dev
 
 Pull requests are welcome! For major changes, please open an issue first to discuss what you'd like to change.
 
-
 ---
 
 > **Note**: This project is intentionally kept simple for educational purposes. Consider it a foundation to build upon for more complex applications.
+```
